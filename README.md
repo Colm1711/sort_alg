@@ -47,7 +47,7 @@ This project looks to create algortihms to sort an array and to present user wit
     The flow for how the application operates was mapped out on lucidcharts
 
     * Highlevel overview wireframe image  
-     ![Highlevel](assets/readme-images)
+     ![Highlevel](assets/images/sort_algo.png)
 
     * lower layer 
     ![lower](assets/readme-images)  
