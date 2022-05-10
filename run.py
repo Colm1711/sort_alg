@@ -28,14 +28,14 @@ array - one param of the array you would like to sort
 """
 def bubble_sort(array):
     #get length of array passed into the function
-    n = len(array)
+    array_len = len(array)
 
-    for i in range(n):
+    for i in range(array_len):
         #set flag so function can terminate early
         array_is_sorted = True
 
         #Loop that will run to sort items. Compares value with agjacent value
-        for j in range(n - i - 1):
+        for j in range(array_len - i - 1):
             if array[j] > array[j + 1]:
                 #swaps items if adjacent value is greater then item
                 array[j], array[j +1] = array[j + 1], array[j]
