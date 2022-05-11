@@ -103,6 +103,8 @@ This project looks to create algortihms to sort an array and to present user wit
 
 ### Known Bugs
 
+- Bug introduced in the merge_arrays(). It was caused by defining the length of firs & second array as variables. Used PythonTutor to debug code in console and was able to address issue by removing vars.
+
 
 [Back to top](<#contents>)
 
